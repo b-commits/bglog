@@ -31,8 +31,9 @@ export default function Home({ allPostsData }) {
           personal blog that everyone seems to have nowadays.
         </p>
         <p>
-          If you'd like, you might check out some of the posts below that I
-          might've (or might've'nt) already created.
+          If you'd like, you might check out{' '}
+          <strong>some of the favourite records </strong>
+          below.
         </p>
         <p>Cheers!</p>
       </section>
