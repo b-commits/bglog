@@ -27,8 +27,8 @@ export default function Home({ allPostsData }) {
         </p>
         <p>
           There's not much else to add, I guess. I created this page just to try
-          out <strong>Next.js</strong>, but I might eventually turn it into this
-          personal blog that everyone seems to have nowadays.
+          out <strong>Next.js</strong>, but I might eventually turn it into a
+          full-blown personal blog one day.
         </p>
         <p>
           If you'd like, you might check out{' '}
