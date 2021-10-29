@@ -1,1 +1,2 @@
 
+**Bglog - a personal blog.**
