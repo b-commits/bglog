@@ -11,11 +11,11 @@ body {
 }
 
 a {
-  color: red !important;
+  color: rgb(215, 70, 72);
 }
 
 a:link {
-  color: red;
+  color: rgb(215, 70, 72);
 }
 
 a :hover {
