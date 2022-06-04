@@ -3,6 +3,25 @@ title: 'How I removed a directory from remote repository after adding it to .git
 date: '2022-04-06'
 ---
 
-<!-- ![RedHousePainters](/images/downcolorful.jpg?raw=true 'Title') -->
+**I'd expect the future me to be grateful for this.**
+Okay, so I pushed some local changes to the remote branch:
 
-**Just wanna see if it auto-updates on vercel after a commit**
+```
+git add .
+git commit -m "feat: pushed some directories including that_one_embarrasing_tmp_folder_where_I_test_things_out".
+git push -u origin master
+```
+
+But the thing is, I forgot to add the directory to the .gitignore file beforehand.
+
+So now I've got that one `tmp` folder hanging about in the remote repository.
+
+To solve it, you first have to unstage the files from the repository that you wish to be hidden, create a commit and push that to GitHub:
+
+```
+git rm -r --cached src/products/features/tmp
+git commit -m "chore: remove that one directory that is now in gitgnore.
+git push -u origin master
+```
+
+It's done, you'll thank me later, future me.
