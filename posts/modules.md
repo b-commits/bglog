@@ -1,5 +1,5 @@
 ---
-title: 'How I encountered and fixed an issue related with ES/CommonJS modules'
+title: 'How I encountered and fixed an issue related to ES/CommonJS modules'
 date: '2022-05-06'
 ---
 
